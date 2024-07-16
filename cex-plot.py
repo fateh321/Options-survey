@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-
 #df_temp = pd.read_csv('cex-volume.csv',names=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"])
 df = pd.read_csv('cex-volume.csv').to_numpy()
 print(df) 
